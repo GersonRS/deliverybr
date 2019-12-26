@@ -12,7 +12,9 @@
 */
 
 
-/** @var \Illuminate\Support\Facades\Route $router */
+///** @var \Illuminate\Support\Facades\Route $router */
+
+$router->get('/', 'HomeController@index');
 
 $router->post('/register', 'UserController@store');
 
